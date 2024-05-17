@@ -1,0 +1,142 @@
+@font-face {
+	font-family: "ComicSansMS";
+	src: url('fonts/ComicSansMS.woff')format('woff');
+}
+$backcolor:#722725;
+body {
+	background-color: $backcolor;
+	font-family: "ComicSansMS";
+}
+@mixin pad{
+    margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+@mixin img{
+	width: 50px;
+	margin-top: 20px;
+}
+@mixin disp{
+    display: inline-block;
+}
+
+header {
+	position: sticky;
+	@include pad;
+
+}
+
+.dheader {
+	width: 100%;
+	height: 70px;
+	background-color: white;
+	align-content: center;
+	display: inline-block;
+	@include pad;
+}
+
+.svlogo {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.headtext {
+	display: inline-block;
+	text-align: center;
+	padding-top: 10px;
+	width: 100px;
+	height: 100px;
+}
+
+.outer {
+	
+}
+main {
+	background-color:$backcolor;
+	width:100%;
+}
+
+.inner {
+	width: 100px;
+	border: none;
+	margin: auto;
+	padding-top: 1px;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.item {
+	width: 1353px;
+	height: 300px;
+	background-color: black;
+	text-align: center;
+}
+.item:nth-child(even) {
+	background-color: white;
+}
+img {
+	height: 300px;
+	width:  500px;
+}
+.even{
+	float:right;
+}
+.odd {
+	float: left;
+}
+h2{
+	margin-top:130px;
+}
+footer{
+	background-color:#d2d1d1;
+	width:100%;
+	height:120px;
+}
+.d1 {
+	float: left;
+	vertical-align: middle;
+}
+.d2 {
+	float: right;
+	
+}
+h3{
+	display:inline-block;
+	margin-left:100px;
+	margin-right:100px;
+	text-align:center;
+}
+.d3 {
+	display: inline-block;
+	text-align: center;
+	align-content: center;
+	margin-left: 150px;
+}
+.toimg {
+	@include disp;
+	height: 50px;
+    @include img;
+}
+.toimg1 {
+	@include disp;
+	height: 54px;
+@include img;
+}
+a:nth-child(2n+1){
+	color:black;
+}
+a {
+	font-size: 25px;
+	text-decoration:none;
+}
