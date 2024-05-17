@@ -319,6 +319,7 @@ h3 {
         margin-right: 10px;
     }
     footer {
+         width: 100% !important;
         height: 220px;
     }
     
@@ -345,6 +346,7 @@ h3 {
     }
 
     footer {
+         width: 100% !important;
         margin-top: 90px;
         height: 300px !important;
     }
@@ -415,6 +417,7 @@ h3 {
     }
 
     footer {
+        width: 100% !important;
         height: 220px;
         text-align: center;
     }
@@ -468,7 +471,7 @@ h3 {
     }
 
     .mainpic {
-        width: 300px;
+        width: 80%;
         height: 400px;
         float: left;
         margin-right: 10px;
