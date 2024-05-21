@@ -8,12 +8,17 @@ html, body {
     justify-content: center;
     margin-top: 0;
 }
+.inner {
+  width: 100px;
+  border: none;
+  margin: auto;
+  padding-top: 10px;
+}
 button {
     background-color: black;
     color: white;
     width: 220px;
     height: 80px;
-    margin-bottom: auto;
     border: none;
     cursor: pointer;
 }
@@ -21,7 +26,6 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
 }
 
 footer{
@@ -89,12 +93,7 @@ float: left;
     width: 100px;
     height: 100px;
 }
-.inner {
-width: 100px;
-border: none;
-margin: auto;
-padding-top: 1px;
-padding-right: 400px;
+
         }
 img {
     width: 100%;
@@ -166,7 +165,7 @@ footer {
         text-align: center;
     }
     main {
-        height: 1800px;
+        height: 1700px;
     }
 
     .info {
