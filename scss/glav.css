@@ -1,21 +1,9 @@
-@font-face {
-    font-family: "ComicSansMS";
-    src: url('fonts/ComicSansMS.woff')format('woff');
-}
-.burger-icon {
-    display: none;
-    cursor: pointer;
-    font-size: 24px;
-}
-
-
 body {
     background-color: #722525;
-    font-family: "ComicSansMS";
 }
 
 .dheader {
-  width: 1465px;
+  width: 1500px;
   height: 60px;
   background-color: #ffffff;
   align-content: center;
