@@ -24,7 +24,9 @@ button {
     margin-bottom: 10px;
 }
 
-
+footer{
+    position:sticky;
+}
 *,
 *::before,
 *::after {
