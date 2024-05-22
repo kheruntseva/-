@@ -8,6 +8,9 @@ html, body {
     justify-content: center;
     margin-top: 0;
 }
+.imgrep{
+    width:100%
+}
 .inner {
   width: 100px;
   border: none;
