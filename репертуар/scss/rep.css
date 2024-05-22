@@ -24,7 +24,7 @@
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 40px !important;
 }
 body {
     background-color: #722725;
