@@ -178,8 +178,9 @@ a {
         width: 1300px !important;
     }
     footer {
-        height: 120px;
+        height: 220px;
     }
+
     .d1 {
         float: left;
         vertical-align: middle;
@@ -188,12 +189,14 @@ a {
     .d2 {
         float: right;
     }
+
     .d3 {
         display: inline-block;
         text-align: center;
         align-content: center;
         padding-left: 100px;
     }
+
     h3 {
         display: inline-block;
         margin-left: 100px;
