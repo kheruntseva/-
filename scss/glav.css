@@ -252,14 +252,6 @@ a {
         display: block;
         margin: 5px;
     }
-    /*
-    .hheader {
-        display: inline;
-        margin-right: 20px;
-        margin-top: 40px;
-        padding-top: 20px;
-        vertical-align: middle;
-    }*/
     main header {
         font-size: 15px;
     }
@@ -293,15 +285,6 @@ a {
     footer {
         height: 300px !important;
     }
-
-/*
-    .hheader {
-        display: inline;
-        margin-right: 70px;
-        margin-top: 40px;
-        padding-top: 20px;
-        vertical-align: middle;
-    }*/
     .dheader {
         flex-direction: column;
         align-items: center;
