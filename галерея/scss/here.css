@@ -129,28 +129,6 @@ footer {
   background-color: #d2d1d1;
   width: 100%;
 }
-
-.d1 {
-  float: left;
-  vertical-align: middle;
-}
-
-.d2 {
-  float: right;
-}
-
-h3 {
-    display: inline-block;
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: center;
-}
-.d3 {
-  display: inline-block;
-  text-align: center;
-  align-content: center;
-  margin-left: 150px;
-}
 .toimg {
   display: inline-block;
   height: 50px;
