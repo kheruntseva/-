@@ -5,6 +5,7 @@
         .links {
             display: none;
             margin-top: 20px;
+          color:black;
         }
 
         .link-box {
@@ -30,6 +31,7 @@ body {
 a {
   font-size: 25px;
   text-decoration: none;
+ color:black;
 }
 header {
   position: sticky;
