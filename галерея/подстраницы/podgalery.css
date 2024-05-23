@@ -6,38 +6,20 @@
     text-decoration: double;
     text-align: center;
 }
-.inner {
-    cursor: pointer;
-    position: relative;
-    display: inline-block;
-}
 
-.clickable {
-    font-size: 2em;
-    font-weight: bold;
-}
+        .links {
+            display: none;
+            margin-top: 20px;
+        }
 
-.links {
-    display: none;
-    position: absolute;
-    top: 100%; /* Позиционирует меню непосредственно под элементом */
-    left: 0;
-    width: 100%;
-    box-sizing: border-box;
-    margin-top: 10px;
-    z-index: 1;
-    background-color: white;
-    border: 1px solid black;
-}
-
-.link-box {
-  background-color: white;
+        .link-box {
+            background-color: white;
             border: 1px solid black;
             padding: 20px;
             margin: 10px 0;
             width: 200px;
             text-align: center;
-}
+        }
 .forglav {
     width: 100%;
     text-align: center;
