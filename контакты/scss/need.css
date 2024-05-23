@@ -32,6 +32,7 @@ header {
   position: sticky;
   margin-bottom: 0;
   padding-bottom: 0;
+    width:100% !important;
 }
 .naglav {
     text-decoration: double;
@@ -116,7 +117,7 @@ footer {
   border-radius: 4px;
   width: 300px;
   background-color: grey;
-}/*# sourceMappingURL=need.css.map */
+}
 @media (min-width: 1200px) {
     form {
         background-color: #ffffff;
@@ -252,6 +253,8 @@ footer {
 
 @media (min-width: 768px) and (max-width: 991px) {
     form {
+       margin-left: auto;
+        margin-right: auto;
         background-color: #ffffff;
         width: 700px;
         height: 500px;
@@ -276,6 +279,7 @@ footer {
     }
 
     .feedback-form__row {
+         margin:auto;
         display: flex;
         flex-direction: column;
         margin-bottom: 15px;
@@ -287,6 +291,8 @@ footer {
        
     }
     .flex-container {
+         margin-left: auto;
+        margin-right: auto;
         flex-direction: column;
         align-items: center;
     }
@@ -307,12 +313,13 @@ footer {
         padding: 10px;
         margin-bottom: 10px;
         border: 1px solid #000;
+        background-color: #ffffff;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
     form {
-        background-color: #ffffff;
+        
         width: 100%; /* Adjust to full width for mobile */
         max-width: 500px;
         height: auto;
@@ -341,6 +348,9 @@ footer {
     }
 
     .flex-container {
+         margin-left: auto;
+        margin-right: auto;
+        margin:auto;
         flex-direction: column;
         align-items: center;
     }
@@ -358,6 +368,7 @@ footer {
         width: 100%;
         max-width: 270px;
         height: 110px;
+        background-color: #ffffff;
     }
 }
 
@@ -377,6 +388,8 @@ footer {
     }
 
     .flex-container {
+         margin-left: auto;
+        margin-right: auto;
         flex-direction: column;
         align-items: center;
     }
@@ -397,6 +410,15 @@ footer {
         padding: 10px;
         margin-bottom: 10px;
         border: 1px solid #000;
+        background-color: #ffffff;
+    }
+     form {
+        background-color: #ffffff;
+        width: 400px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
     }
 }
 
