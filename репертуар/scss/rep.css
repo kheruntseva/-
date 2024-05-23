@@ -6,7 +6,23 @@
     display: flex;
     flex-wrap: wrap;
 }
+h1 {
+            cursor: pointer;
+        }
 
+        .links {
+            display: none;
+            margin-top: 20px;
+        }
+
+        .link-box {
+            background-color: white;
+            border: 1px solid black;
+            padding: 20px;
+            margin: 10px 0;
+            width: 200px;
+            text-align: center;
+        }
 .item {
     flex: 1 1 30%;
     margin: 10px;
