@@ -226,6 +226,7 @@ footer {
 
     footer {
         height: 220px;
+        margin-top:30% !important;
     }
 
     .d1 {
@@ -320,6 +321,7 @@ footer {
     }
     footer {
         height: 220px;
+        margin-top:50% !important;
     }
 }
 
@@ -330,6 +332,7 @@ footer {
 
     footer {
         font-size: 20px;
+         margin-top:50% !important;
     }
 
     header {
@@ -394,6 +397,7 @@ footer {
 
     footer {
         font-size: 17px;
+         margin-top:50% !important;
     }
 
     header {
