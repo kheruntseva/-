@@ -367,6 +367,9 @@ footer {
         height: 110px;
         background-color: #ffffff;
     }
+    footer{
+        margin-top:40%;
+    }
 }
 
 @media (max-width: 575px) {
@@ -382,6 +385,7 @@ footer {
     footer {
         height: 200px;
         text-align: center;
+        margin-top:40%;
     }
 
     .flex-container {
