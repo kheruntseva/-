@@ -119,6 +119,8 @@ footer {
   background-color: grey;
 }
 @media (min-width: 1200px) {
+    .otdelno {
+        width: 270px; height: 150px;}
     form {
         background-color: #ffffff;
         width: 900px;
@@ -189,6 +191,8 @@ footer {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+     .otdelno {
+        width: 270px; height: 150px;}
     form {
         background-color: #ffffff;
         width: 900px;
@@ -252,6 +256,8 @@ footer {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+     .otdelno {
+        width: 270px; height: 150px;}
     form {
        margin-left: auto;
         margin-right: auto;
