@@ -13,6 +13,7 @@ h1 {
         .links {
             display: none;
             margin-top: 20px;
+            color:black;
         }
 
         .link-box {
