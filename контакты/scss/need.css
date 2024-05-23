@@ -8,6 +8,10 @@ body {
     font-family: "ComicSansMS";
    
 }
+a {
+  font-size: 25px;
+  text-decoration: none;
+}
 header {
   position: sticky;
   margin-bottom: 0;
