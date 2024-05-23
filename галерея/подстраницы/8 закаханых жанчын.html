@@ -48,7 +48,7 @@
                 </svg>
             </div>
             <div class="inner">
-               <h2>спектакль&nbsp“8&nbspзакаханых&nbspжанчын”</h2> 
+                   <span class="clickable">спектакль&nbsp“8&nbspзакаханых&nbspжанчын”</span>
             </div>
                  <div class="links">
                     <div class="link-box"><a href="https://kheruntseva.github.io/kursovoi_project/">главная</a></div>
@@ -59,14 +59,14 @@
                 </div>
         </div>
              <script>
-        document.querySelector('h2').addEventListener('click', function() {
-            var links = document.querySelector('.links');
-            if (links.style.display === 'none' || links.style.display === '') {
-                links.style.display = 'block';
-            } else {
-                links.style.display = 'none';
-            }
-        });
+   document.querySelector('.inner').addEventListener('click', function() {
+    var links = document.querySelector('.links');
+    if (links.style.display === 'none' || links.style.display === '') {
+        links.style.display = 'block';
+    } else {
+        links.style.display = 'none';
+    }
+});
             </script>
     </header>
     <main class="sheet">
