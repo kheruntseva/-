@@ -316,7 +316,7 @@ footer {
     form {
         
         width: 100%; 
-        max-width: 500px;
+        max-width: 300px;
         height: auto;
         margin-left: auto;
         margin-right: auto;
@@ -356,14 +356,14 @@ footer {
         padding: 50px 0px 0px 0px;
         margin-bottom: 20px;
         width: 100%;
-        max-width: 270px;
+     
     }
 
     .flex-row {
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
-        max-width: 270px;
+   
         height: 110px;
         background-color: #ffffff;
     }
@@ -400,14 +400,14 @@ footer {
         padding: 50px 0px 0px 0px;
         margin-bottom: 20px;
         width: 100%;
-        max-width: 270px;
+     
     }
 
     .flex-row {
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
-        max-width: 270px;
+       
         height: auto;
         padding: 10px;
         margin-bottom: 10px;
@@ -417,7 +417,7 @@ footer {
      form {
         background-color: #ffffff;
         width: 400px;
-        height: 500px;
+        height: 300px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 60px;
