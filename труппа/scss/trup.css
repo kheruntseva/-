@@ -2,6 +2,21 @@
     font-family: "ComicSansMS";
     src: url('fonts/ComicSansMS.woff')format('woff');
 }
+ .inner {
+            position: relative;
+            height: 300px; /* Adjust the height as needed */
+            width: 100%;
+            border: 1px solid black; /* Just for visualization */
+        }
+
+        .inner h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-45deg);
+            white-space: nowrap;
+            font-size: 24px; /* Adjust font size as needed */
+        }
 .naglav {
     text-decoration: double;
     text-align: center;
