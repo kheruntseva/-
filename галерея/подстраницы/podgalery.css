@@ -7,25 +7,6 @@
     text-align: center;
 }
 
-        .links {
-            display: none;
-            margin-top: 20px;
-        }
-
-        .link-box {
-            background-color: white;
-            border: 1px solid black;
-            padding: 20px;
-            margin: 10px 0;
-            width: 200px;
-            text-align: center;
-        }
-.forglav {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 40px;
-}
 body {
     background-color: #722725;
     font-family: "ComicSansMS";
@@ -133,14 +114,7 @@ h3 {
     display:flex;
     align-content:center;
 }
-/*
-    .slider img {
-        display: none;
-        width: 1000px;
-        height: 700px;
-        padding:70px 0px 0px 140px;
-    }
-*/
+
 button {
     position: absolute;
     top: 50%;
@@ -157,6 +131,11 @@ button {
 
 #next {
     right: 0;
+}
+  .inner {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
 }
 
 @media (min-width: 1200px){
@@ -180,6 +159,37 @@ button {
     footer {
         height: 120px;
     }
+   .inner {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+.clickable {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.links {
+    display: none;
+    position: absolute;
+    top: 100%; /* Позиционирует меню непосредственно под элементом */
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.link-box {
+    padding: 20px;
+    padding-left:600px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -224,6 +234,37 @@ button {
         height: 730px;
         background-color:#722525;
     }
+       .inner {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+.clickable {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.links {
+    display: none;
+    position: absolute;
+    top: 100%; /* Позиционирует меню непосредственно под элементом */
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.link-box {
+    padding: 20px;
+    padding-left:500px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -247,6 +288,37 @@ button {
     footer {
         height: 300px !important;
     }
+       .inner {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+.clickable {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.links {
+    display: none;
+    position: absolute;
+    top: 100%; /* Позиционирует меню непосредственно под элементом */
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.link-box {
+    padding: 20px;
+    padding-left:370px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
 
 }
 
@@ -283,6 +355,7 @@ button {
 
     .link-box {
         width: 100%;
+        padding-left:300px;
     }
 @media (max-width: 575px) {
     .sheet {
@@ -316,5 +389,6 @@ button {
 
     .link-box {
         width: 100%;
+            padding-left:250px;
     }
 }
