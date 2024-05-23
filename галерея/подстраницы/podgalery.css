@@ -6,23 +6,29 @@
     text-decoration: double;
     text-align: center;
 }
- h2 {
-            cursor: pointer;
-        }
+ .inner {
+    cursor: pointer;
+}
 
-        .links {
-            display: none;
-            margin-top: 20px;
-        }
+.clickable {
+    font-size: 2em;
+    font-weight: bold;
+    display: inline-block;
+}
 
-        .link-box {
-            background-color: white;
-            border: 1px solid black;
-            padding: 20px;
-            margin: 10px 0;
-            width: 200px;
-            text-align: center;
-        }
+.links {
+    display: none;
+    margin-top: 20px;
+}
+
+.link-box {
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px 0;
+    width: 200px;
+    text-align: center;
+}
 .forglav {
     width: 100%;
     text-align: center;
