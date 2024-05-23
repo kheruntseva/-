@@ -159,37 +159,6 @@ button {
     footer {
         height: 120px;
     }
-   .inner {
-    cursor: pointer;
-    position: relative;
-    display: inline-block;
-}
-.clickable {
-    font-size: 2em;
-    font-weight: bold;
-}
-
-.links {
-    display: none;
-    position: absolute;
-    top: 100%; /* Позиционирует меню непосредственно под элементом */
-    left: 0;
-    width: 100%;
-    box-sizing: border-box;
-    margin-top: 10px;
-    z-index: 1;
-    background-color: white;
-    border: 1px solid black;
-}
-
-.link-box {
-    padding: 20px;
-    padding-left:600px;
-    margin: 0;
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid black;
-}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -234,37 +203,6 @@ button {
         height: 730px;
         background-color:#722525;
     }
-       .inner {
-    cursor: pointer;
-    position: relative;
-    display: inline-block;
-}
-.clickable {
-    font-size: 2em;
-    font-weight: bold;
-}
-
-.links {
-    display: none;
-    position: absolute;
-    top: 100%; /* Позиционирует меню непосредственно под элементом */
-    left: 0;
-    width: 100%;
-    box-sizing: border-box;
-    margin-top: 10px;
-    z-index: 1;
-    background-color: white;
-    border: 1px solid black;
-}
-
-.link-box {
-    padding: 20px;
-    padding-left:500px;
-    margin: 0;
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid black;
-}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -288,38 +226,6 @@ button {
     footer {
         height: 300px !important;
     }
-       .inner {
-    cursor: pointer;
-    position: relative;
-    display: inline-block;
-}
-.clickable {
-    font-size: 2em;
-    font-weight: bold;
-}
-
-.links {
-    display: none;
-    position: absolute;
-    top: 100%; /* Позиционирует меню непосредственно под элементом */
-    left: 0;
-    width: 100%;
-    box-sizing: border-box;
-    margin-top: 10px;
-    z-index: 1;
-    background-color: white;
-    border: 1px solid black;
-}
-
-.link-box {
-    padding: 20px;
-    padding-left:370px;
-    margin: 0;
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid black;
-}
-
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -343,20 +249,7 @@ button {
         height: 500px;
     }
 }
-    .inner {
-        width: 100%;
-    }
-
-    .links {
-        width: auto;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .link-box {
-        width: 100%;
-        padding-left:300px;
-    }
+   
 @media (max-width: 575px) {
     .sheet {
         width: 340px !important;
@@ -377,18 +270,5 @@ button {
     body {
         font-size: 25px !important;
     }
-        .inner {
-        width: 100%;
-    }
 
-    .links {
-        width: auto;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .link-box {
-        width: 100%;
-            padding-left:250px;
-    }
 }
