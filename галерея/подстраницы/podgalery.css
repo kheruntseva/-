@@ -1,3 +1,59 @@
+.inner {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.inner span {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.links {
+    display: none;
+    position: absolute;
+    top: 100%; /* Позиционирует меню непосредственно под элементом */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.link-box {
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.link-box a {
+    text-decoration: none;
+    color: black;
+}
+
+.link-box:not(:last-child) {
+    border-bottom: none;
+}
+
+/* Адаптивный дизайн */
+@media (max-width: 600px) {
+    .links {
+        width: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
+
+
+
+
 @font-face {
     font-family: "ComicSansMS";
     src: url('fonts/ComicSansMS.woff')format('woff');
