@@ -10,6 +10,7 @@ h1 {
     display: none;
     margin-top: 20px;
     color: black;
+    
 }
 
 .link-box {
@@ -17,7 +18,7 @@ h1 {
     border: 1px solid black;
     padding: 20px;
     margin: 10px 0;
-    width: 200px;
+    width: 200px !important;
     text-align: center;
 }
 
