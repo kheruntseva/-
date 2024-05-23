@@ -19,7 +19,9 @@
     text-decoration: double;
     text-align: center;
 }
-
+.inner {
+            cursor: pointer;
+        }
 .forglav {
     width: 100%;
     text-align: center;
@@ -71,18 +73,18 @@
 
             </div>
             <div>
-              <div>
-                <h1 display:inline;>труппа</h1>
-             <div class="links">
-                    <div class="link-box"><a href="https://kheruntseva.github.io/kursovoi_project/">главная</a></div>
-                    <div class="link-box"><a href="https://kheruntseva.github.io/kursovoi_project/%D1%80%D0%B5%D0%BF%D0%B5%D1%80%D1%82%D1%83%D0%B0%D1%80/repertoir.html">репертуар</a></div>
-                    <div class="link-box"><a href="https://kheruntseva.github.io/kursovoi_project/%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B/contacts.html">контакты</a></div>
-                    <div class="link-box"><a href="https://kheruntseva.github.io/kursovoi_project/%D1%82%D1%80%D1%83%D0%BF%D0%BF%D0%B0/truppa.html">труппа</a></div>
-                </div>
-            </div>
+             <div class="inner">
+        <span>репертуар</span>
+        <div class="links">
+            <div class="link-box"><a href="https://kheruntseva.github.io/kursovoi_project/">главная</a></div>
+            <div class="link-box"><a href="https://kheruntseva.github.io/kursovoi_project/%D1%80%D0%B5%D0%BF%D0%B5%D1%80%D1%82%D1%83%D0%B0%D1%80/repertoir.html">репертуар</a></div>
+            <div class="link-box"><a href="https://kheruntseva.github.io/kursovoi_project/%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B/contacts.html">контакты</a></div>
+            <div class="link-box"><a href="https://kheruntseva.github.io/kursovoi_project/%D1%82%D1%80%D1%83%D0%BF%D0%BF%D0%B0/truppa.html">труппа</a></div>
+        </div>
+    </div>
 
-          <script>
-        document.querySelector('h1').addEventListener('click', function() {
+    <script>
+        document.querySelector('.inner').addEventListener('click', function() {
             var links = document.querySelector('.links');
             if (links.style.display === 'none' || links.style.display === '') {
                 links.style.display = 'block';
@@ -90,7 +92,7 @@
                 links.style.display = 'none';
             }
         });
-            </script>
+    </script>
     </header>
     <main>
         <div class="container">
