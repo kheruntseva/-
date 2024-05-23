@@ -2,43 +2,33 @@
     font-family: "ComicSansMS";
     src: url('fonts/ComicSansMS.woff')format('woff');
 }
- .inner {
-            position: relative;
-            height: 300px; /* Adjust the height as needed */
-            width: 100%;
-            border: 1px solid black; /* Just for visualization */
+
+
+ h1 {
+            cursor: pointer;
         }
 
-        .inner h1 {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%) rotate(-45deg);
-            white-space: nowrap;
-            font-size: 24px; /* Adjust font size as needed */
+        .links {
+            display: none;
+            margin-top: 20px;
         }
+
+        .link-box {
+            background-color: white;
+            border: 1px solid black;
+            padding: 20px;
+            margin: 10px 0;
+            width: 200px;
+            text-align: center;
+        }
+
+    
 .naglav {
     text-decoration: double;
     text-align: center;
 }
 a{
     color:black;
-}
-.links {
-    display: none;
-    margin-top: 20px;
-}
-.link-box {
-    background-color: white;
-    border: 1px solid black;
-    padding: 20px;
-    margin: 10px 0;
-    width: 200px;
-    text-align: center;
-}
-
-.link-box {
-    margin-left: 50%;
 }
 .forglav {
     width: 100%;
