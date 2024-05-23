@@ -315,7 +315,7 @@ footer {
 @media (min-width: 576px) and (max-width: 767px) {
     form {
         
-        width: 100%; 
+        width: 100% !important; 
         max-width: 300px;
         height: auto;
         margin-left: auto;
@@ -355,14 +355,14 @@ footer {
     .flex-column {
         padding: 50px 0px 0px 0px;
         margin-bottom: 20px;
-        width: 100%;
+        width: 100 !important%;
      
     }
 
     .flex-row {
         flex-direction: column;
         align-items: flex-start;
-        width: 100%;
+        width: 100 !important%;
    
         height: 110px;
         background-color: #ffffff;
@@ -393,20 +393,20 @@ footer {
         margin-right: auto;
         flex-direction: column;
         align-items: center;
-         width: 100%;
+         width: 100 !important%;
     }
 
     .flex-column {
         padding: 50px 0px 0px 0px;
         margin-bottom: 20px;
-        width: 100%;
+        width: 100 !important%;
      
     }
 
     .flex-row {
         flex-direction: column;
         align-items: flex-start;
-        width: 100%;
+        width: 100 !important%;
        
         height: auto;
         padding: 10px;
