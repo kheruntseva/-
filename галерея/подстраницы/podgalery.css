@@ -6,30 +6,36 @@
     text-decoration: double;
     text-align: center;
 }
- .inner {
+.inner {
     cursor: pointer;
+    position: relative;
+    display: inline-block;
 }
 
 .clickable {
     font-size: 2em;
     font-weight: bold;
-    display: inline-block;
 }
 
 .links {
     display: none;
-    margin-top: 20px;
-    margin-left:auto;
-    margin-right:auto;
+    position: absolute;
+    top: 100%; /* Позиционирует меню непосредственно под элементом */
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid black;
 }
 
 .link-box {
-    background-color: white;
-    border: 1px solid black;
     padding: 20px;
-    margin: 10px 0;
-    width: 200px;
+    margin: 0;
+    width: 100%;
     text-align: center;
+    border-bottom: 1px solid black;
 }
 .forglav {
     width: 100%;
@@ -282,7 +288,19 @@ button {
         height: 500px;
     }
 }
+    .inner {
+        width: 100%;
+    }
 
+    .links {
+        width: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .link-box {
+        width: 100%;
+    }
 @media (max-width: 575px) {
     .sheet {
         width: 340px !important;
@@ -302,5 +320,18 @@ button {
     }
     body {
         font-size: 25px !important;
+    }
+        .inner {
+        width: 100%;
+    }
+
+    .links {
+        width: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .link-box {
+        width: 100%;
     }
 }
