@@ -309,12 +309,14 @@ footer {
 @media (min-width: 576px) and (max-width: 767px) {
     form {
         background-color: #ffffff;
-        width: 500px;
-        height: 400px;
+        width: 100%; /* Adjust to full width for mobile */
+        max-width: 500px;
+        height: auto;
         margin-left: auto;
         margin-right: auto;
         margin-top: 60px;
-     
+        box-sizing: border-box;
+        padding: 20px;
     }
 
     .feedback-form__row {
@@ -322,103 +324,77 @@ footer {
         flex-direction: column;
         margin-bottom: 15px;
     }
+
     .sheet {
-        width: 540px !important;
+        width: 100%;
+        max-width: 540px;
+        box-sizing: border-box;
     }
 
     footer {
         margin-top: 90px;
-        height: 200px !important;
+        height: 200px;
     }
 
-    d1 {
-        float: right;
-    }
-
-    .d2 {
-        float: right;
-    }
-
-    .d3 {
-        display: inline-block;
-        text-align: center;
-        align-content: center;
-        padding-left: 100px;
-    }
-    body {
-       
-    }
     .flex-container {
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .flex-column {
         padding: 50px 0px 0px 0px;
-        width: 270px;
         margin-bottom: 20px;
+        width: 100%;
+        max-width: 270px;
     }
 
     .flex-row {
-        display: flex;
         flex-direction: column;
         align-items: flex-start;
-        width: 270px;
+        width: 100%;
+        max-width: 270px;
         height: 110px;
-        background-color: #ffffff;
     }
 }
 
 @media (max-width: 575px) {
     .sheet {
-        width: 340px !important;
+        width: 100%;
+        max-width: 340px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center
+        align-items: center;
     }
 
     footer {
         height: 200px;
         text-align: center;
     }
-    body {
-        
-    }
-    .d1 {
-        float: left;
-        vertical-align: middle;
-    }
 
-    .d2 {
-        float: right;
-    }
-
-    .d3 {
-        display: inline-block;
-        text-align: center;
-        align-content: center;
-        padding-left: 100px;
-    }
     .flex-container {
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .flex-column {
         padding: 50px 0px 0px 0px;
-        width: 270px;
         margin-bottom: 20px;
+        width: 100%;
+        max-width: 270px;
     }
 
     .flex-row {
-        display: flex;
         flex-direction: column;
         align-items: flex-start;
-        width: 270px;
-        height: 110px;
-        background-color: #ffffff;
+        width: 100%;
+        max-width: 270px;
+        height: auto;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #000;
     }
 }
+
+
+
