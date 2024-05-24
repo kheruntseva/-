@@ -102,6 +102,7 @@ header {
         .hamburger-menu {
             position: relative;
             display: inline-block;
+            float:right;
         }
 
         #menu-toggle {
