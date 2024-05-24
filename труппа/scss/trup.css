@@ -2,26 +2,6 @@
     font-family: "ComicSansMS";
     src: url('fonts/ComicSansMS.woff')format('woff');
 }
-
-
- h1 {
-            cursor: pointer;
-        }
-
-        .links {
-            display: none;
-            margin-top: 20px;
-        }
-
-        .link-box {
-            background-color: white;
-            border: 1px solid black;
-            padding: 20px;
-            margin: 10px 0;
-            width: 200px;
-            text-align: center;
-        }
-
     
 .naglav {
     text-decoration: double;
