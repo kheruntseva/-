@@ -152,6 +152,14 @@ a {
   text-decoration: none;
 }
 @media (min-width: 1200px) {
+  .menu{
+    width:350;
+    text-align:center;
+    verticfl-align:center;
+  }
+  .menu a{
+    font-size:30px;
+  }
     .sheet {
         width: 1300px !important;
     }
@@ -184,6 +192,14 @@ a {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  .menu{
+    width:350;
+    text-align:center;
+    verticfl-align:center;
+  }
+  .menu a{
+    font-size:30px;
+  }
     .sheet {
         width: 940px !important;
     }
@@ -208,12 +224,28 @@ a {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .menu{
+    width:300;
+    text-align:center;
+    verticfl-align:center;
+  }
+  .menu a{
+    font-size:25px;
+  }
     .sheet {
         width: 720px !important;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+  .menu{
+    width:200;
+    text-align:center;
+    verticfl-align:center;
+  }
+  .menu a{
+    font-size:20px;
+  }
     .sheet {
         width: 540px !important;
     }
@@ -229,6 +261,14 @@ a {
 }
 
 @media (max-width: 575px) {
+  .menu{
+    width:200;
+    text-align:center;
+    verticfl-align:center;
+  }
+  .menu a{
+    font-size:20px;
+  }
     .sheet {
         width: 340px ;
     }
