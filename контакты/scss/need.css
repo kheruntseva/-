@@ -249,6 +249,31 @@ footer {
     height: 120px;
     margin-top: 30px;
 }
+.toimg {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.toimg1 {
+    display: inline-block;
+    height: 54px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.feedback-form__label {
+    margin-bottom: 5px;
+}
+
+.feedback-form__input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    background-color: grey;
+}
 
 @media (min-width: 1200px) {
    .menu{
