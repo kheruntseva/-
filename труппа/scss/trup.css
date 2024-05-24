@@ -223,7 +223,7 @@ h3 {
         border-left: thick solid black;
     }
     body {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .sheet {
@@ -281,8 +281,8 @@ h3 {
          width:100%;
     }
     .mainpic {
-        width: 220px;
-        height: 300px;
+        width: 500px;
+        height: 500px;
         float: left;
         margin-right: 10px;
     }
