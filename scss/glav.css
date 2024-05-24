@@ -150,6 +150,7 @@ a {
 
     footer {
         height: 120px;
+        margin-top:15%;
     }
 
     .d1 {
@@ -227,6 +228,8 @@ a {
         width: 900px;
         height: 500px;
     }
+    footer{
+           margin-top:15%;}
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
