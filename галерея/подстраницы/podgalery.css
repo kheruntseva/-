@@ -237,8 +237,8 @@ button {
     }
     .slider img {
         display: none;
-        width: 750px;
-        height: 650px;
+        width: 100%;
+        height: 700px;
         padding: 0px 10px 10px 0px;
     }
     main {
@@ -286,6 +286,9 @@ button {
     footer {
         margin-top: 100%;
     }
+     button{
+        margin-top:10%;
+    }
 }
 
 @media (max-width: 575px) {
@@ -310,6 +313,7 @@ button {
     }
     .slider {
         margin-top: 70%;
+             width: 100%;
     }
 
     footer {
@@ -317,7 +321,10 @@ button {
     }
       .slider img {
         display: none;
-        width: 100%;
+        width: 100% !important;
         height: 600px;
+    }
+    button{
+        margin-top:10%;
     }
 }
