@@ -112,6 +112,8 @@ header {
         .menu-icon {
             font-size: 2em;
             cursor: pointer;
+            margin-top:0;
+            padding-top:0;
         }
 
         .menu {
@@ -275,6 +277,15 @@ h3 {
   margin-top: 20px;
 }
 @media (min-width: 1200px) {
+              .menu{
+    width:500px !important;
+    height:350x !important;
+    text-align:center;
+    verticfl-align:center;
+  }
+  .menu a{
+    font-size:40px;
+  }
     body {
         font-size: 30px;
     }
@@ -334,6 +345,15 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+              .menu{
+    width:500px !important;
+    height:350x !important;
+    text-align:center;
+    verticfl-align:center;
+  }
+  .menu a{
+    font-size:40px;
+  }
     body {
         font-size: 25px;
     }
@@ -384,6 +404,15 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+              .menu{
+    width:350px !important;
+    height:250x !important;
+    text-align:center;
+    verticfl-align:center;
+  }
+  .menu a{
+    font-size:30px;
+  }
     body {
         font-size: 25px;
     }
@@ -431,6 +460,15 @@ h3 {
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+              .menu{
+    width:270px !important;
+    height:250x !important;
+    text-align:center;
+    verticfl-align:center;
+  }
+  .menu a{
+    font-size:25px;
+  }
     body {
         font-size: 18px;
     }
@@ -481,6 +519,15 @@ h3 {
 }
 
 @media (max-width: 575px) {
+                        .menu{
+    width:270px !important;
+    height:250x !important;
+    text-align:center;
+    verticfl-align:center;
+  }
+  .menu a{
+    font-size:25px;
+  }
     body {
         font-size: 15px;
     }
