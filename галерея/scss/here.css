@@ -153,8 +153,8 @@ a {
 }
 @media (min-width: 1200px) {
   .menu{
-    width:500px;
-    height:300px;
+    width:500px !important;
+    height:700px !important;
     text-align:center;
     verticfl-align:center;
   }
@@ -194,8 +194,8 @@ a {
 
 @media (min-width: 992px) and (max-width: 1199px) {
  .menu{
-    width:500px;
-    height:300px;
+    width:500px !important;
+    height:700px !important;
     text-align:center;
     verticfl-align:center;
   }
@@ -227,8 +227,8 @@ a {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .menu{
-    width:400px;
-    height:200px;
+    width:400px !important;
+    height:600px !important;
     text-align:center;
     verticfl-align:center;
   }
@@ -242,8 +242,8 @@ a {
 
 @media (min-width: 576px) and (max-width: 767px) {
   .menu{
-    width:300px;
-    height:100px;
+    width:300px !important;
+    height:500px !important;
     text-align:center;
     verticfl-align:center;
   }
@@ -266,8 +266,8 @@ a {
 
 @media (max-width: 575px) {
   .menu{
-    width:300px;
-    height:100px;
+    width:300px !important;
+    height:500px !important;
     text-align:center;
     verticfl-align:center;
   }
