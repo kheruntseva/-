@@ -1,3 +1,153 @@
+header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #f8f8f8;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .dheader {
+            display: flex;
+            align-items: center;
+        }
+        .inner h1 {
+            margin: 0 0 0 20px;
+        }
+
+        .menu {
+            position: relative;
+        }
+
+            .menu input {
+                display: none;
+            }
+
+            .menu label {
+                display: block;
+                cursor: pointer;
+                width: 30px;
+                height: 30px;
+            }
+
+                .menu label span,
+                .menu label span::before,
+                .menu label span::after {
+                    content: '';
+                    display: block;
+                    background-color: #333;
+                    height: 4px;
+                    width: 100%;
+                    border-radius: 2px;
+                    transition: all 0.3s;
+                }
+
+                    .menu label span::before {
+                        transform: translateY(-10px);
+                    }
+
+                    .menu label span::after {
+                        transform: translateY(6px);
+                    }
+
+            .menu input:checked + label span {
+                background: transparent;
+            }
+
+                .menu input:checked + label span::before {
+                    transform: rotate(45deg) translate(5px, 5px);
+                }
+
+                .menu input:checked + label span::after {
+                    transform: rotate(-45deg) translate(5px, -5px);
+                }
+
+            .menu ul {
+                position: absolute;
+                right: 0;
+                top: 40px;
+                background-color: white;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                display: none;
+            }
+
+            .menu input:checked ~ ul {
+                display: block;
+            }
+
+            .menu ul li {
+                border-bottom: 1px solid #ddd;
+            }
+
+                .menu ul li a {
+                    text-decoration: none;
+                    color: #333;
+                    display: block;
+                    padding: 10px 20px;
+                }
+
+                    .menu ul li a:hover {
+                        background-color: #f0f0f0;
+                    }
+        .dheader {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .hamburger-menu {
+            position: relative;
+            display: inline-block;
+        }
+
+        #menu-toggle {
+            display: none;
+        }
+
+        .menu-icon {
+            font-size: 2em;
+            cursor: pointer;
+        }
+
+        .menu {
+            display: none;
+            position: absolute;
+            right: 0;
+            top: 100%;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+            .menu a {
+                display: block;
+                padding: 10px 20px;
+                text-decoration: none;
+                color: black;
+            }
+
+                .menu a:hover {
+                    background-color: #f0f0f0;
+                }
+
+        #menu-toggle:checked + .menu-icon + .menu {
+            display: block;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
 @font-face {
     font-family: "ComicSansMS";
     src: url('fonts/ComicSansMS.woff')format('woff');
