@@ -153,12 +153,13 @@ a {
 }
 @media (min-width: 1200px) {
   .menu{
-    width:350;
+    width:500px;
+    height:300px;
     text-align:center;
     verticfl-align:center;
   }
   .menu a{
-    font-size:30px;
+    font-size:40px;
   }
     .sheet {
         width: 1300px !important;
@@ -192,13 +193,14 @@ a {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .menu{
-    width:350;
+ .menu{
+    width:500px;
+    height:300px;
     text-align:center;
     verticfl-align:center;
   }
   .menu a{
-    font-size:30px;
+    font-size:40px;
   }
     .sheet {
         width: 940px !important;
@@ -225,12 +227,13 @@ a {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .menu{
-    width:300;
+    width:400px;
+    height:200px;
     text-align:center;
     verticfl-align:center;
   }
   .menu a{
-    font-size:25px;
+    font-size:30px;
   }
     .sheet {
         width: 720px !important;
@@ -239,12 +242,13 @@ a {
 
 @media (min-width: 576px) and (max-width: 767px) {
   .menu{
-    width:200;
+    width:300px;
+    height:100px;
     text-align:center;
     verticfl-align:center;
   }
   .menu a{
-    font-size:20px;
+    font-size:25px;
   }
     .sheet {
         width: 540px !important;
@@ -262,12 +266,13 @@ a {
 
 @media (max-width: 575px) {
   .menu{
-    width:200;
+    width:300px;
+    height:100px;
     text-align:center;
     verticfl-align:center;
   }
   .menu a{
-    font-size:20px;
+    font-size:25px;
   }
     .sheet {
         width: 340px ;
