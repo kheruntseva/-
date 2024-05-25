@@ -102,8 +102,8 @@ header {
             position: relative;
             display: inline-block;
             float:right;
-                    margin-top:100%;
-                    padding-top:100%;
+                    margin-bottom:100%;
+                    padding-bottom:100%;
         }
 
         #menu-toggle {
@@ -530,7 +530,7 @@ h3 {
     font-size:25px;
   }
     body {
-        font-size: 15px;
+        font-size: 25px;
     }
     .sheet {
         width: 340px !important;
@@ -559,4 +559,5 @@ h3 {
         align-content: center;
         padding-left: 100px;
     }
+            
 }
