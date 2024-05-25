@@ -103,6 +103,7 @@
             position: relative;
             display: inline-block;
          width:100%;
+         
         }
 
         #menu-toggle {
@@ -280,6 +281,9 @@ header{
 }
 
 @media (min-width: 1200px) {
+  .hamburger-menu {
+    float:right;
+        }
    .menu{
     width:500px !important;
     height:350x !important;
@@ -355,7 +359,7 @@ header{
         margin-right: 100px;
         text-align: center;
     }
- body{
+ header{
   font-size:30px !important;
  }
   
@@ -363,7 +367,10 @@ header{
 
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  body{
+  .hamburger-menu {
+float:right;
+        }
+   header{
   font-size:30px !important;
  }
    .menu{
@@ -440,10 +447,15 @@ header{
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {  .menu{
-  body{
+@media (min-width: 768px) and (max-width: 991px) { 
+   .hamburger-menu {
+float:right;
+        }
+   header{
   font-size:30px !important;
  }
+ .menu{
+ 
     width:350px !important;
     height:250x !important;
     text-align:center;
@@ -515,7 +527,8 @@ header{
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  body{
+  
+   header{
   font-size:25px !important;
  }
    .menu{
@@ -584,10 +597,14 @@ header{
     footer{
         margin-top:40%;
     }
+  .svlogo {
+    width: 60px;
+    height: 60px;
+}
 }
 
 @media (max-width: 575px) {
- body{
+  header{
   font-size:25px !important;
  }
     .menu{
@@ -656,6 +673,10 @@ header{
   padding-right:20px;
   font-size:15px !important;
  }
+ .svlogo {
+    width: 60px;
+    height: 60px;
+}
 }
 
 
