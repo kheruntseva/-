@@ -281,8 +281,12 @@ header{
 }
 
 @media (min-width: 1200px) {
+ .inner{
+  margin-left:300px;
+ }
   .hamburger-menu {
     float:right;
+   margin-left:100px;
         }
    .menu{
     width:500px !important;
@@ -360,18 +364,22 @@ header{
         text-align: center;
     }
  header{
-  font-size:40px !important;
+  font-size:50px !important;
  }
   
 }
 
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  .inner{
+  margin-left:250px;
+ }
   .hamburger-menu {
 float:right;
+  margin-left:80px;
         }
    header{
-  font-size:40px !important;
+  font-size:50px !important;
  }
    .menu{
     width:500px !important;
@@ -447,12 +455,16 @@ float:right;
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px) { 
+@media (min-width: 768px) and (max-width: 991px) {
+   .inner{
+  margin-left:250px;
+ }
    .hamburger-menu {
 float:right;
+ margin-left:50px;
         }
    header{
-  font-size:40px !important;
+  font-size:50px !important;
  }
  .menu{
  
@@ -529,7 +541,7 @@ float:right;
 @media (min-width: 576px) and (max-width: 767px) {
   
    header{
-  font-size:35px !important;
+  font-size:40px !important;
  }
    .menu{
     width:300px !important;
@@ -605,7 +617,7 @@ float:right;
 
 @media (max-width: 575px) {
   header{
-  font-size:35px !important;
+  font-size:40px !important;
  }
     .menu{
     width:300px !important;
