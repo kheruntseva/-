@@ -457,11 +457,11 @@ float:right;
 
 @media (min-width: 768px) and (max-width: 991px) {
    .inner{
-  margin-left:100px;
+  margin-left:20px;
  }
    .hamburger-menu {
 float:right;
- margin-left:50px;
+ margin-left:20px;
         }
    header{
   font-size:50px !important;
@@ -626,7 +626,7 @@ float:right;
  margin-left:15px;
         }
   header{
-  font-size:4px !important;
+  font-size:45px !important;
  }
     .menu{
     width:300px !important;
