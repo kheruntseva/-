@@ -95,13 +95,15 @@ header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 10px;
+           
         }
 
         .hamburger-menu {
             position: relative;
             display: inline-block;
             float:right;
+                    margin-top:100%;
+                    padding-top:100%;
         }
 
         #menu-toggle {
