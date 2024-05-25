@@ -360,7 +360,7 @@ header{
         text-align: center;
     }
  header{
-  font-size:30px !important;
+  font-size:40px !important;
  }
   
 }
@@ -371,7 +371,7 @@ header{
 float:right;
         }
    header{
-  font-size:30px !important;
+  font-size:40px !important;
  }
    .menu{
     width:500px !important;
@@ -452,7 +452,7 @@ float:right;
 float:right;
         }
    header{
-  font-size:30px !important;
+  font-size:40px !important;
  }
  .menu{
  
@@ -529,7 +529,7 @@ float:right;
 @media (min-width: 576px) and (max-width: 767px) {
   
    header{
-  font-size:25px !important;
+  font-size:35px !important;
  }
    .menu{
     width:300px !important;
@@ -565,7 +565,7 @@ float:right;
     }
 
     footer {
-        margin-top: 90px;
+   
         height: 200px;
     }
 
@@ -595,7 +595,7 @@ float:right;
         background-color: #ffffff;
     }
     footer{
-        margin-top:40%;
+        margin-top:100%;
     }
   .svlogo {
     width: 60px;
@@ -605,7 +605,7 @@ float:right;
 
 @media (max-width: 575px) {
   header{
-  font-size:25px !important;
+  font-size:35px !important;
  }
     .menu{
     width:300px !important;
@@ -628,7 +628,7 @@ float:right;
     footer {
         height: 200px;
         text-align: center;
-        margin-top:40%;
+        margin-top:100%;
     }
 
     .flex-container {
