@@ -355,10 +355,17 @@ header{
         margin-right: 100px;
         text-align: center;
     }
+ body{
+  font-size:30px !important;
+ }
+  
 }
 
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  body{
+  font-size:30px !important;
+ }
    .menu{
     width:500px !important;
     height:350x !important;
@@ -434,6 +441,9 @@ header{
 }
 
 @media (min-width: 768px) and (max-width: 991px) {  .menu{
+  body{
+  font-size:30px !important;
+ }
     width:350px !important;
     height:250x !important;
     text-align:center;
@@ -505,6 +515,9 @@ header{
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+  body{
+  font-size:25px !important;
+ }
    .menu{
     width:300px !important;
     height:250x !important;
@@ -574,6 +587,9 @@ header{
 }
 
 @media (max-width: 575px) {
+ body{
+  font-size:25px !important;
+ }
     .menu{
     width:300px !important;
     height:250x !important;
