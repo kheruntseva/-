@@ -514,6 +514,9 @@ footer {
         margin-right: auto;
         margin-top: 60px;
     }
+    .menu-icon {
+        margin-right:15px;
+    }
 }
 
 
