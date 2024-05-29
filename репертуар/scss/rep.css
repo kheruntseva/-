@@ -411,7 +411,7 @@ h3 {
 /**/
 @media (min-width: 576px) and (max-width: 767px) {
     body {
-        font-size: 27px;
+        font-size: 30px;
     }
     .sheet {
         width: 540px !important;
@@ -461,7 +461,7 @@ h3 {
 
 @media (max-width: 575px) {
     body {
-        font-size: 20px !important;
+        font-size: 30px !important;
     }
     .sheet {
         width: 340px !important;
