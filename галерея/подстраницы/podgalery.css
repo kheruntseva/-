@@ -402,10 +402,7 @@ button {
 @media (max-width: 575px) {
     .sheet {
         width: 340px !important;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center
+      
     }
 
     footer {
@@ -434,5 +431,8 @@ button {
     }
     button{
         margin-top:10%;
+    }
+    main{
+        background-color: #722725;
     }
 }
